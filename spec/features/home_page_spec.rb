@@ -1,7 +1,8 @@
 require 'rails_helper'
 
 describe 'PLS car home page' do
-  before 'visit PLS home page'do
+  before 'visit PLS home page' do
+    Capybara.current_session.driver.browser.manage.window.resize_to(1024, 768)
     @home_page = HomePage.new
     @home_page.load
   end

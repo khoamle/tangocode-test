@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-describe 'PLS car home page' do
-  before do
+describe 'PLS car home page mobile screen size' do
+  before 'visit PLS home page' do
     Capybara.current_session.driver.browser.manage.window.resize_to(640, 480)
     @home_page = HomePage.new
     @home_page.load
