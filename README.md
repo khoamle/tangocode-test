@@ -47,4 +47,4 @@ gem 'chromedriver-helper'
 
 ## Limitations of test cases
 
-* Default year, mileage, and price range where used in test.
+* Default year, mileage, and price range were used in test cases.
